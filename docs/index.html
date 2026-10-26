@@ -19,5 +19,5 @@
 </div>
 </main><script>
 function language(lang){document.documentElement.lang=lang;document.querySelectorAll('[data-lang]').forEach(e=>e.hidden=e.dataset.lang!==lang);document.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.id===lang)))}
-document.getElementById('en').onclick=()=>language('en');document.getElementById('ru').onclick=()=>language('ru');language(location.hash.endsWith('-ru')?'ru':navigator.language.startsWith('ru')?'ru':'en');window.addEventListener('hashchange',()=>{if(location.hash.endsWith('-ru'))language('ru');else if(location.hash.endsWith('-en'))language('en')});
+document.getElementById('en').onclick=()=>language('en');document.getElementById('ru').onclick=()=>language('ru');language(location.hash.endsWith('-ru')?'ru':location.hash.endsWith('-en')?'en':navigator.language.startsWith('ru')?'ru':'en');window.addEventListener('hashchange',()=>{if(location.hash.endsWith('-ru'))language('ru');else if(location.hash.endsWith('-en'))language('en')});
 </script></html>
