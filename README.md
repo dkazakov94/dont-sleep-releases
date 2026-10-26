@@ -10,9 +10,11 @@ The session works across your Mac, not just with one app or agent. It prevents s
 
 The main Don't Sleep app is awaiting Mac App Store review and is not available there yet. It will offer a free 7-day trial, followed by a one-time purchase with no subscription.
 
-[Don't Sleep Companion 0.6](https://github.com/dkazakov94/dont-sleep-releases/releases/tag/v0.6) is available now. It is a free, separately installed component for closed-lid sessions and built-in display backlight control. macOS requires approval for its background service. It does not start sessions on its own or unlock paid access.
+[Don't Sleep Companion 0.7](https://github.com/dkazakov94/dont-sleep-releases/releases/tag/v0.7) is available now. It is a free, separately installed component for closed-lid sessions and built-in display backlight control. macOS requires approval for its background service. It does not start sessions on its own or unlock paid access.
 
 Requires macOS 13 Ventura or later, on Apple silicon or Intel. Basic keep-awake sessions work without Companion.
+
+Open **Setup** in the Don’t Sleep menu-bar panel for step-by-step installation. Companion also includes a **Return to Don’t Sleep** button.
 
 [Setup, support and privacy](https://dkazakov94.github.io/dont-sleep-releases/#support-en)
 
@@ -26,9 +28,11 @@ Don't Sleep не даёт Mac уснуть во время сессии. С ус
 
 Основное приложение Don't Sleep ожидает проверки Apple и пока недоступно в Mac App Store. В нём будет 7 дней бесплатного пробного периода, затем разовая покупка без подписки.
 
-[Don't Sleep Companion 0.6](https://github.com/dkazakov94/dont-sleep-releases/releases/tag/v0.6) уже можно скачать. Это бесплатный компонент для работы с закрытой крышкой и управления подсветкой. Он устанавливается отдельно, macOS попросит разрешить фоновую службу. Сам компонент не запускает сессии и не открывает платный доступ.
+[Don't Sleep Companion 0.7](https://github.com/dkazakov94/dont-sleep-releases/releases/tag/v0.7) уже можно скачать. Это бесплатный компонент для работы с закрытой крышкой и управления подсветкой. Он устанавливается отдельно, macOS попросит разрешить фоновую службу. Сам компонент не запускает сессии и не открывает платный доступ.
 
 Нужен Mac с macOS 13 Ventura или новее, Apple silicon или Intel. Обычная работа без сна доступна без Companion.
+
+Открой вкладку **Установка** в панели Don’t Sleep: она проведёт по шагам. В Companion есть кнопка **Вернуться в Don’t Sleep**.
 
 [Установка, поддержка и конфиденциальность](https://dkazakov94.github.io/dont-sleep-releases/#support-ru)
 
